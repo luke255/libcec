@@ -22,14 +22,14 @@ To compile libCEC on a new Raspbian installation, follow these instructions:
 ```
 sudo apt-get update
 sudo apt-get install cmake libudev-dev libxrandr-dev python3-dev swig git
-cd
+cd ~
 git clone https://github.com/Pulse-Eight/platform.git
 mkdir platform/build
 cd platform/build
 cmake ..
 make
 sudo make install
-cd
+cd ~
 git clone https://github.com/Pulse-Eight/libcec.git
 mkdir libcec/build
 cd libcec/build
